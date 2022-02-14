@@ -105,8 +105,8 @@ Search       { fg=bg,      bg=yellow };    -- Last search pattern highlighting (
 IncSearch    { Search };                   -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
 Substitute   { Search };                   -- |:substitute| replacement text highlighting
 
-Visual       { bg=hsl(215, 80, 63, 0.5) };                    -- Visual mode selection
-VisualNOS    { bg=hsl(215, 80, 63, 0.5) };                -- Visual mode selection when Vim is "Not Owning the Selection".
+Visual       { bg=hsl(215, 80, 63, 0.2) };                    -- Visual mode selection
+VisualNOS    { bg=hsl(215, 80, 63, 0.2) };                -- Visual mode selection when Vim is "Not Owning the Selection".
 
 ModeMsg      { fg=faded };                 -- 'showmode' message (e.g. "-- INSERT -- ")
 MsgArea      { Normal };                   -- Area for messages and cmdline
